@@ -1,0 +1,110 @@
+/* 
+  #F21365 pink
+  #D91480 bright pink
+  #64518C purple
+  #71CED9 light blue
+  #746769 grey
+
+*/
+
+body {
+  /* background: rgba(255, 255, 255, 0.8) url(../images/background.jpg)linear-gradient(-180deg, #f6bf4e 1%,#f9d281 23%,#fffdf3 71%); */
+}
+
+.masthead {
+  padding: 90px 0px 60px 0px;
+}
+
+.masthead img {
+  display: inline-block;
+  max-width: 820px;
+  margin-right: 20px;
+}
+
+.masthead h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  /* background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.8) url(../images/background.jpg)
+  /* linear-gradient(-180deg, #f6bf4e 1%,#f9d281 23%,#fffdf3 71%); */
+}
+
+.content h1 {
+  font-family: 'Merriweather', sans-serif;
+  text-align: center;
+}
+
+.content .container {
+  padding: 100px 0px;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  /* background: url(../images/background.jpg) linear-gradient(-180deg, #f6bf4e 1%,#f9d281 23%,#fffdf3 71%); */
+  overflow: hidden;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0px auto 0px auto;
+  padding: 40px;
+}
+
+/* .content .container {
+  background: #FFF;
+} */
+
+.content h1 {
+  color: #71CED9
+}
+
+.examples {
+  background: #FFF;
+  border-top: 10px solid rgba(0, 0, 0, 0.1);
+}
+
+.examples h2 {
+  color: #D91480;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.examples img {
+  max-width: 400px;
+}
+
+.cta {
+  color: #fff;
+  padding: 18px 30px;
+  background: #24d3ff;
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  margin: 0px auto;
+  display: block;
+  width: 200px;
+  /* Old browsers */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#24d3ff+0,2989d8+39,874bfe+73 */
+  background: #AC52BC;
+}
+
+.cta:hover {
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer {
+  background: #222222;
+  color: #E5E5E5;
+}
