@@ -1,27 +1,12 @@
-/* 
-  #F21365 pink
-  #D91480 bright pink
-  #64518C purple
-  #71CED9 light blue
-  #746769 grey
-
-*/
-
 body {
   /* background: rgba(255, 255, 255, 0.8) url(../images/background.jpg)linear-gradient(-180deg, #f6bf4e 1%,#f9d281 23%,#fffdf3 71%); */
   font-family: 'Open sans', sans-serif;
 }
 
 .masthead {
-  padding: 20px 0px 15px 0px;
+  padding: 20px 0px 25px 0px;
   /* background: rgba(255, 255, 255, 0.8) url(../images/background.jpg) */
   color: #333;
-}
-
-.masthead img {
-  display: inline-block;
-  max-width: 480px;
-  margin-right: 20px;
 }
 
 .masthead h1 {
@@ -69,11 +54,11 @@ header {
   overflow: hidden;
 }
 
-.container {
+/* .container {
   max-width: 1024px;
   margin: 0px auto 0px auto;
   padding: 40px 0px;
-}
+} */
 
 /* .content .container {
   background: #FFF;
@@ -126,6 +111,12 @@ header {
   color: #E5E5E5;
 }
 
+@media (max-width: 767.98px) {
+  .footer {
+    text-align: center;
+  }
+}
+
 .wordmark {
   font-family: 'Heebo', sans-serif;
   font-weight: 900;
@@ -154,6 +145,25 @@ header {
   background: url(../images/vastpuddle-masthead.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .examples-corkscrew {
+    text-align: center;
+    background-position: 25% 0px;
+  }
+}
+
+@media (max-width: 1023.9px) {
+  .examples-corkscrew {
+    background-position: 25% 0px;
+  }
+}
+
+@media (max-width: 499.9px) {
+  .examples-corkscrew {
+    background: none;
+  }
 }
 
 .example-corkscrew {
