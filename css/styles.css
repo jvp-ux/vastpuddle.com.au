@@ -4,7 +4,7 @@ body {
 }
 
 .masthead {
-  padding: 20px 0px 25px 0px;
+  padding: 60px 0px 25px 0px;
   /* background: rgba(255, 255, 255, 0.8) url(../images/background.jpg) */
   color: #333;
 }
@@ -37,12 +37,12 @@ body {
   padding: 40px 0px 10px 0px;
 } */
 
-.content h2 {
+h2 {
   color: #333333;
   font-family: 'Merriweather', sans-serif;
 }
 
-.content h3 {
+h3 {
   color: #666666;
   font-family: 'Merriweather', sans-serif;
 }
@@ -72,6 +72,10 @@ header {
   background: #FFF;
   border-top: 10px solid rgba(0, 0, 0, 0.1);
   border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+}
+
+.border-top-interim {
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
 }
 
 .examples h2 {
@@ -141,29 +145,8 @@ header {
   margin-right: 10px;
 }
 
-.examples-corkscrew {
-  background: url(../images/vastpuddle-masthead.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 1024px) {
-  .examples-corkscrew {
-    text-align: center;
-    background-position: 25% 0px;
-  }
-}
-
-@media (max-width: 1023.9px) {
-  .examples-corkscrew {
-    background-position: 25% 0px;
-  }
-}
-
-@media (max-width: 499.9px) {
-  .examples-corkscrew {
-    background: none;
-  }
+.examples-corkscrew img {
+  max-width: 320px;
 }
 
 .example-corkscrew {
@@ -175,6 +158,12 @@ header {
 
 .example-corkscrew img {
   margin-top: 20px;
+  max-width: 180px;
+  padding: 20px;
+  box-sizing: content-box;
+  /* border: 1px solid #E5E5E5; */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 
 h2.wordmark-corkscrew {
