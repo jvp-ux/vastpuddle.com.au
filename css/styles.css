@@ -173,3 +173,10 @@ h2.wordmark-corkscrew {
 .wordmark-corkscrew strong {
   font-weight: 900;
 }
+
+form .cta {
+  float: none;
+  margin-left: 0px;
+  border: none;
+  cursor: pointer;
+}
