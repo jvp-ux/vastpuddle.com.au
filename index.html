@@ -85,6 +85,9 @@
           <p>If you want to try our purpose-built platform for clinicians and researchers. It's powerful, easy to understand
             and is constantly updated</p>
 
+          <a href="#contact" class="cta cta-large float-left">Register your interest</span>
+          </a>
+
 
 
 
@@ -178,62 +181,36 @@
 
 
 
-
-  <section class="contact mb-5 mt-5">
-    <div class="container">
-      <a href="mailto:steve@vastpuddle.com.au" class="cta cta-large">Test drive
-        <span class="wordmark">CORKSCREW</span>
-      </a>
-    </div>
-  </section>
-
-
-
-
+  <a id="contact" name="contact"></a>
   <section class="contact mb-5 mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-
           <h2 class="text-center ">
             <strong>Reach out</strong>
           </h2>
           <form name="contact" method="POST" netlify>
-
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
             </div>
-
-
             <div class="form-group">
               <label for="email">Email address</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-
-
-
             </div>
-
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
+              <textarea class="form-control" id="message" name="message" rows="3"></textarea>
             </div>
-
             <div class="form-group">
-
-
-
               <button type="submit" class="cta mb-2">Send</button>
             </div>
           </form>
-
         </div>
-
       </div>
       <div class="col-md-3"></div>
-
     </div>
   </section>
 
