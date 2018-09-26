@@ -70,8 +70,6 @@ header {
 
 .examples {
   background: #FFF;
-  border-top: 10px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 10px solid rgba(0, 0, 0, 0.1);
 }
 
 .border-top-interim {
@@ -179,4 +177,24 @@ form .cta {
   margin-left: 0px;
   border: none;
   cursor: pointer;
+}
+
+.figure-note {
+  font-size: 0.8em;
+  color: #666666;
+  text-align: center;
+}
+
+.pullquote {
+  background: url(../images/tiny-squares.png);
+  background-size: cover;
+}
+
+.pullquote h2 {
+  font-size: 2.4em;
+}
+
+hr {
+  background-color: #ED831A;
+  height: 2px;
 }
