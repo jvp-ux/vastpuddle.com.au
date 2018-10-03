@@ -9,6 +9,10 @@ body {
   color: #333;
 }
 
+.content-page .masthead {
+  padding: 20px 0px 5px 0px;
+}
+
 .masthead h1 {
   color: #333333;
   text-align: center;
@@ -19,6 +23,34 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+}
+
+.content-page .masthead h1 {
+  font-size: 24px;
+
+}
+
+.content-page .masthead img {
+  height: 40px;
+
+
+}
+
+nav .nav-item a {
+  color: #ED831A;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Heebo', sans-serif;
+  padding: 0px 10px 10px 10px;
+  margin-right: 10px;
+}
+
+.our-work-logo {
+  max-width: 320px;
+}
+
+.our-work-auspice img {
+  max-width: 80%;
 }
 
 .masthead h2 {
