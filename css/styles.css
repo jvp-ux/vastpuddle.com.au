@@ -3,6 +3,21 @@ body {
   font-family: 'Open sans', sans-serif;
 }
 
+h1,
+h2 {
+  font-family: 'Heebo', sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 48px;
+
+}
+
 .masthead {
   padding: 60px 0px 25px 0px;
   /* background: rgba(255, 255, 255, 0.8) url(../images/background.jpg) */
@@ -12,6 +27,8 @@ body {
 .content-page .masthead {
   padding: 20px 0px 5px 0px;
 }
+
+
 
 .masthead h1 {
   color: #333333;
@@ -49,8 +66,8 @@ nav .nav-item a {
   max-width: 320px;
 }
 
-.our-work-auspice img {
-  max-width: 80%;
+.our-work-logo.our-work-logo-mid {
+  max-width: 200px;
 }
 
 .masthead h2 {
@@ -118,7 +135,7 @@ h2 {
 }
 
 .cta {
-  color: #fff;
+  color: #fff !important;
   padding: 18px 30px;
   background: #C92639;
   text-align: center;
@@ -229,4 +246,8 @@ form .cta {
 hr {
   background-color: #ED831A;
   height: 2px;
+}
+
+section.our-work-section:nth-child(even) {
+  background-color: #F5F5F5;
 }
