@@ -92,6 +92,15 @@ nav .nav-item a {
 .mookie h2 {
   color: #FC544B;
   font-size: 80px;
+  line-height: 40px;
+}
+
+.mookie h2 span {
+  font-size: 40px;
+}
+
+.mookie h1 {
+  color: #FC544B;
 }
 
 .mookie .cta {
