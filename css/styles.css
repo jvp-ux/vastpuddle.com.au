@@ -303,3 +303,9 @@ section.our-work-section:nth-child(even) {
 .home section:nth-child(even) {
   background-color: #F5F5F5;
 }
+
+
+.works-page p {
+  font-size: 20px;
+  color: #666;
+}
