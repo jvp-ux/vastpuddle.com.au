@@ -23,9 +23,13 @@ h2 {
 
 .masthead {
   padding: 60px 0px 25px 0px;
-  background: rgba(255, 255, 255, 0.8) url(../images/background.jpg);
-  background-size: cover;
+  /* background: rgba(255, 255, 255, 0.8) url(../images/background.jpg);
+  background-size: cover;   */
   color: #333;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#55beda+0,6fdefc+100 */
+  background: #55beda;
+  /* Old browsers */
+  background: -webkit-linear-gradient(-45deg, #55beda 0%, #ABF4FF 100%);
 }
 
 .content-page .masthead {
@@ -45,6 +49,9 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
 }
+
+
+
 
 .content-page .masthead h1 {
   font-size: 24px;
@@ -116,8 +123,8 @@ nav .nav-item a {
 .masthead h2 {
   text-align: center;
   font-family: 'Heebo', sans-serif;
-  color: #E5E5E5;
-  font-weight: 800;
+  color: #e5e5e5;
+  font-weight: 300;
 }
 
 .content h1 {
@@ -179,15 +186,20 @@ h2 {
 
 .cta {
   color: #fff !important;
-  padding: 18px 30px;
+  padding: 18px 18px;
   background: #C92639;
+  text-transform: uppercase;
   text-align: center;
   font-family: 'Open sans', sans-serif;
   margin: 0px auto;
   display: block;
-  width: 200px;
+  width: 300px;
   /* Old browsers */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#24d3ff+0,2989d8+39,874bfe+73 */
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.05);
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
 }
 
 .cta-large {
@@ -198,6 +210,11 @@ h2 {
   /* box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5); */
   color: #fff;
   text-decoration: none;
+  margin-top: -2px;
+  margin-bottom: 2px;
+  box-shadow: 0px 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+
 }
 
 .footer {
@@ -300,9 +317,9 @@ section.our-work-section:nth-child(even) {
   background-color: #F5F5F5;
 }
 
-.home section:nth-child(even) {
+/* .home section:nth-child(even) {
   background-color: #F5F5F5;
-}
+} */
 
 
 .works-page p {
