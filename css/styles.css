@@ -27,9 +27,9 @@ h2 {
   background-size: cover;   */
   color: #333;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#55beda+0,6fdefc+100 */
-  background: #55beda;
+  background: #000000;
   /* Old browsers */
-  background: -webkit-linear-gradient(-45deg, #55beda 0%, #ABF4FF 100%);
+  background: -webkit-linear-gradient(-45deg, #000000 0%, #222222 100%);
 }
 
 .content-page .masthead {
@@ -196,8 +196,8 @@ h2 {
   width: 300px;
   /* Old browsers */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#24d3ff+0,2989d8+39,874bfe+73 */
-  border-radius: 4px;
-  box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 0px;
+  box-shadow: 0px 0px 2px 5px rgba(0, 0, 0, 0.01);
   -webkit-transition: all .15s ease;
   transition: all .15s ease;
 }
@@ -325,4 +325,18 @@ section.our-work-section:nth-child(even) {
 .works-page p {
   font-size: 20px;
   color: #666;
+}
+
+.client-logos div {
+  position: relative;
+  height: 200px;
+
+}
+
+.client-logos div img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 1em;
 }
