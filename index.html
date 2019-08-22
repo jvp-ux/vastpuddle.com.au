@@ -30,7 +30,53 @@
 </head>
 
 <body class="home">
-  <section class="masthead ">
+  <!-- Start Nav Section -->
+  <nav id="navbar" class="navbar">
+    <ul class="nav-menu">
+      <li>
+        <a data-scroll="home" href="#home" class="dot active">
+          <span>home</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="partners" href="#partners" class="dot">
+          <span>our partners and clients</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="junip" href="#junip" class="dot">
+          <span>junip</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="corkscrew" href="#corkscrew" class="dot">
+          <span>corkscrew</span>
+        </a>
+      </li>
+
+      <li>
+        <a data-scroll="testimonials" href="#testimonials" class="dot">
+          <span>testimonials</span>
+        </a>
+      </li>
+      <li>
+        <a data-scroll="about" href="#about" class="dot">
+          <span>about</span>
+        </a>
+      </li>
+
+
+      <li>
+        <a data-scroll="contact" href="#contact" class="dot">
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- End Nav Section -->
+
+
+  <section class="masthead " id="home">
     <div class="container">
       <div class="row mb-md-5 ">
         <div class="col-md-2">
@@ -57,7 +103,7 @@
   </section>
 
 
-  <section>
+  <section id="partners">
     <div class="container">
       <div class="row mb-md-5 mt-md-5 ">
         <div class="col-md-12">
@@ -86,9 +132,25 @@
   </section>
 
 
+  <section class="content scr-junip" style="background: #19A3FA; padding: 3em" id="junip">
+    <div class="container padding-top-none  mb-md-5">
+      <div class="row ">
+        <div class="col-md-12  mt-md-4">
+          <a href="https://junip.com.au" class="btn btn-primary mb-5">VISIT junip.com.au</a>
+
+          <img src="images/scr-junip.png" alt="JUNIP" class="img-fluid"
+            style="width: 99%; margin: 0px auto 3em auto; border-radius: 30px;" />
+          <a href="https://junip.com.au" class="btn btn-primary mb-5">VISIT junip.com.au</a>
+
+        </div>
 
 
-  <section class="content examples " style="background: #E5E5E5; padding: 3em">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="content examples " style="background: #E5E5E5; padding: 3em" id="corkscrew">
     <div class="container padding-top-none  mb-md-5">
       <div class="row ">
         <div class="col-md-3  mt-md-4"></div>
@@ -133,7 +195,7 @@
 
 
 
-  <section class="we-can-build" style="display: none;">
+  <section class="we-can-build" style="display: none;" id="services">
     <div class="container">
 
       <div class="row">
@@ -160,41 +222,9 @@
     </div>
   </section>
 
-  <section class="content examples  ">
-    <div class="container padding-top-none  mb-md-5">
-
-      <div class="row mt-md-5">
-
-        <div class="col-md-3">
-        </div>
-
-        <div class="col-md-6 mt-md-5 mb-md-5">
-          <h2 class="text-center mb-md-5"><strong>About Vast Puddle</strong></h2>
-
-          <p>We are a small team with a lot of experience. We build quickly, produce results and - if needed - hold
-            your hand along the way.</p>
-
-          <p>We design web &amp; mobile applications that look good, leaving a lasting impression with your users</p>
-          <p><strong>What's our point of difference?</strong></p>
-          <p>We are <em>really</em> good listeners and we are here to build an enduring relationship with your
-            organisation. </em>We think the process is pretty simple.
-          </p>
 
 
-          <p>We are agile, responsive and mighty. </p>
-        </div>
-        <div class="col-md-3">
-        </div>
-
-      </div>
-
-
-
-
-    </div>
-  </section>
-
-  <section>
+  <section id="testimonials" class="mt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg mb-md-5">
@@ -262,7 +292,39 @@
 
 
 
+  <section class="content examples  " id="about">
+    <div class="container padding-top-none  mb-md-5">
 
+      <div class="row mt-md-5">
+
+        <div class="col-md-3">
+        </div>
+
+        <div class="col-md-6 mt-md-5 mb-md-5">
+          <h2 class="text-center mb-md-5"><strong>About Vast Puddle</strong></h2>
+
+          <p>We are a small team with a lot of experience. We build quickly, produce results and - if needed - hold
+            your hand along the way.</p>
+
+          <p>We design web &amp; mobile applications that look good, leaving a lasting impression with your users</p>
+          <p><strong>What's our point of difference?</strong></p>
+          <p>We are <em>really</em> good listeners and we are here to build an enduring relationship with your
+            organisation. </em>We think the process is pretty simple.
+          </p>
+
+
+          <p>We are agile, responsive and mighty. </p>
+        </div>
+        <div class="col-md-3">
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  </section>
 
 
 
@@ -274,7 +336,7 @@
         <div class="col-md-3"></div>
         <div class="col-md-6">
           <h2 class="text-center ">
-            Would you like to work with us?
+            <strong>Would you like to work with us?</strong>
           </h2>
           <form name="contact" method="POST" netlify>
             <div class="form-group">
@@ -338,6 +400,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
     integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
   </script>
+  <script src="scripts.js"></script>
 </body>
 
 </html>
