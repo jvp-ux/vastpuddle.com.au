@@ -43,4 +43,16 @@ $(function () {
 
     // Call the updateYear function when the document is ready
     updateYear();
+
+    // Add an interval to update the year every minute
+    setInterval(updateYear, 60000);
+
+    // Function to set the current year in the footer
+    function setCurrentYear() {
+        const currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+    }
+
+    // Call the function when the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', setCurrentYear);
 });
