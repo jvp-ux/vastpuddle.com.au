@@ -32,4 +32,15 @@ $(function () {
         });
     }
     scrNav();
+
+    // Add this new function to update the year
+    function updateYear() {
+        var currentYear = new Date().getFullYear();
+        $('.footer .wordmark-black').parent().contents().filter(function() {
+            return this.nodeType === 3;
+        }).first().replaceWith(' ' + currentYear);
+    }
+
+    // Call the updateYear function when the document is ready
+    updateYear();
 });
