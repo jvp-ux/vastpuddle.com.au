@@ -30,6 +30,9 @@ As this is a static website hosted on GitHub Pages, there's no need for local in
    ```
 2. Open the `index.html` file in your web browser.
 
+Optional: Install the Live Server extension within Visual Studio Code for a more dynamic development experience.
+
+
 ## Usage
 
 Visit [vastpuddle.com.au](https://vastpuddle.com.au) to view the live site.
